@@ -1,0 +1,11 @@
+s = input()
+l = []
+for j in range(0,int(input())):
+    l.append(input())
+t = len(s)
+l1 = []
+for i in l:
+    if i[0:t] == s:
+        l1.append(i)
+print(l1)
+    
